@@ -12,3 +12,17 @@ G:\Project\DND\DND.Services\bin\Debug\EntityFramework.xml
 G:\Project\DND\DND.Services\obj\Debug\DND.Services.csprojResolveAssemblyReference.cache
 G:\Project\DND\DND.Services\obj\Debug\DND.Services.dll
 G:\Project\DND\DND.Services\obj\Debug\DND.Services.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\DND.Services.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\DND.Services.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\DND.Domain.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\StructureMap.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\StructureMap.Net4.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\EntityFramework.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\DND.Domain.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\StructureMap.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\StructureMap.xml
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\StructureMap.Net4.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\EntityFramework.xml
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.csprojResolveAssemblyReference.cache
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.pdb
