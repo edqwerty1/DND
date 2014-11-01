@@ -29,6 +29,12 @@ namespace DND.Controllers
             return View(spells);
         }
 
+        public ActionResult Initialise()
+        {
+            test.Initialise();
+            return Redirect("Index");
+        }
+
         public ActionResult CreateSpell()
         {
             return View();
