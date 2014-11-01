@@ -94,3 +94,5 @@ C:\Users\EdUser\Documents\GitHub\DND\DND\bin\DND.Services.Implementation.pdb
 C:\Users\EdUser\Documents\GitHub\DND\DND\obj\Debug\DND.csprojResolveAssemblyReference.cache
 C:\Users\EdUser\Documents\GitHub\DND\DND\obj\Debug\DND.dll
 C:\Users\EdUser\Documents\GitHub\DND\DND\obj\Debug\DND.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND\bin\EntityFramework.SqlServer.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND\bin\EntityFramework.SqlServer.xml
