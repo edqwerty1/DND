@@ -47,7 +47,7 @@ namespace DND.Domain.Concrete.EntityFramework
         /// </summary>
         /// <param name="managementContext">Management model only</param>
         public DataContext()
-            : base(ConfigurationManager.ConnectionStrings["DNDb"].ConnectionString)
+            : base(ConfigurationManager.ConnectionStrings["DNDB"].ConnectionString)
         {
             base.NamespaceDataContext = "DND.Domain.Concrete.EntityFramework.Mapping";
             base.Schema = "Domain";
