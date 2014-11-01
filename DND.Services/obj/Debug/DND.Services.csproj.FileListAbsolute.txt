@@ -1,0 +1,14 @@
+G:\Project\DND\DND.Services\bin\Debug\DND.Services.dll
+G:\Project\DND\DND.Services\bin\Debug\DND.Services.pdb
+G:\Project\DND\DND.Services\bin\Debug\DND.Domain.dll
+G:\Project\DND\DND.Services\bin\Debug\StructureMap.dll
+G:\Project\DND\DND.Services\bin\Debug\StructureMap.Net4.dll
+G:\Project\DND\DND.Services\bin\Debug\EntityFramework.dll
+G:\Project\DND\DND.Services\bin\Debug\DND.Domain.pdb
+G:\Project\DND\DND.Services\bin\Debug\StructureMap.pdb
+G:\Project\DND\DND.Services\bin\Debug\StructureMap.xml
+G:\Project\DND\DND.Services\bin\Debug\StructureMap.Net4.pdb
+G:\Project\DND\DND.Services\bin\Debug\EntityFramework.xml
+G:\Project\DND\DND.Services\obj\Debug\DND.Services.csprojResolveAssemblyReference.cache
+G:\Project\DND\DND.Services\obj\Debug\DND.Services.dll
+G:\Project\DND\DND.Services\obj\Debug\DND.Services.pdb

@@ -1,0 +1,15 @@
+G:\Project\DND\DND.Domain\obj\Debug\DND.Domain.csprojResolveAssemblyReference.cache
+G:\Project\DND\DND.Domain\bin\Debug\DND.Domain.dll.config
+G:\Project\DND\DND.Domain\bin\Debug\DND.Domain.dll
+G:\Project\DND\DND.Domain\bin\Debug\DND.Domain.pdb
+G:\Project\DND\DND.Domain\bin\Debug\EntityFramework.dll
+G:\Project\DND\DND.Domain\bin\Debug\EntityFramework.SqlServer.dll
+G:\Project\DND\DND.Domain\bin\Debug\StructureMap.dll
+G:\Project\DND\DND.Domain\bin\Debug\StructureMap.Net4.dll
+G:\Project\DND\DND.Domain\bin\Debug\EntityFramework.xml
+G:\Project\DND\DND.Domain\bin\Debug\EntityFramework.SqlServer.xml
+G:\Project\DND\DND.Domain\bin\Debug\StructureMap.pdb
+G:\Project\DND\DND.Domain\bin\Debug\StructureMap.xml
+G:\Project\DND\DND.Domain\bin\Debug\StructureMap.Net4.pdb
+G:\Project\DND\DND.Domain\obj\Debug\DND.Domain.dll
+G:\Project\DND\DND.Domain\obj\Debug\DND.Domain.pdb

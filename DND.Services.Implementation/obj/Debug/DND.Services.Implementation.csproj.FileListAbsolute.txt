@@ -1,0 +1,11 @@
+G:\Project\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.csprojResolveAssemblyReference.cache
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Services.Implementation.dll
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Services.Implementation.pdb
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Domain.dll
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Services.dll
+G:\Project\DND\DND.Services.Implementation\bin\Debug\EntityFramework.dll
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Domain.pdb
+G:\Project\DND\DND.Services.Implementation\bin\Debug\DND.Services.pdb
+G:\Project\DND\DND.Services.Implementation\bin\Debug\EntityFramework.xml
+G:\Project\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.dll
+G:\Project\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.pdb

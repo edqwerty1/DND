@@ -1,0 +1,97 @@
+﻿@model DND.Domain.Entities.Spell
+@using (Ajax.BeginForm("SaveSpell", "Spell", new AjaxOptions { UpdateTargetId = "CreateSpellResult" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.TextArea("SpellText", string.Empty, 10, 55, null)
+        </div>
+
+
+        <div>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Level)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Level)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CastingTime)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.CastingTime)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Range)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Range)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Components)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Components)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Duration)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Duration)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Source)
+                </dt>
+
+                <dd>
+                    @Html.EditorFor(model => model.Source)
+                </dd>
+
+                @Html.HiddenFor(model => model.School.Id);
+
+                <dd>
+                    @Html.EditorFor(model => model.School.Name)
+                </dd>
+
+            </dl>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+}
+
+<div id="CreateSpellResult"></div>
