@@ -3,6 +3,7 @@ using DND.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,7 +23,7 @@ namespace DND.Services.Implementation
         }
         public IQueryable<Spell> GetAllSpells()
         {
-            return spells.GetAll();
+            return spells.GetAll().Include(t => t.School);
         }
 
         public void InitialiseData()
@@ -155,6 +156,32 @@ namespace DND.Services.Implementation
             return true;
         }
 
+
+        public IQueryable<Spell> FindSpells(string level, int classId, string spellName)
+        {
+            int levelInt;
+            if (level == "Cantrip")
+                levelInt = 0;
+            else
+            {
+            int.TryParse(level, out levelInt);
+            }
+            
+
+
+            return spells.Search(t => (level == "All" || t.Level == levelInt) 
+                && (classId == 0 || t.Classes.Any(c => c.Id == classId) )
+                && (String.IsNullOrEmpty(spellName) || t.Name.Contains(spellName)));
+        }
+
+        public bool AddSpell(Spell spell)
+        {
+            spells.Add(spell);
+
+            UnitOfWork.Commit();
+
+            return true; // so useful
+        }
 
     }
 }

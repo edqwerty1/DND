@@ -24,14 +24,16 @@ namespace DND.Domain.Concrete.EntityFramework
 
         public void Initialise()
         {
+            
+
             schools.Add(new School { Name = "Conjuration" });
             schools.Add(new School { Name = "Abjuration" });
             schools.Add(new School { Name = "Transmutation" });
             schools.Add(new School { Name = "Enchantment" });
-            schools.Add(new School { Name = "Divination," });
+            schools.Add(new School { Name = "Divination" });
             schools.Add(new School { Name = "Necromancy" });
-            schools.Add(new School { Name = "Evocation,," });
-            schools.Add(new School { Name = "Illusion," });
+            schools.Add(new School { Name = "Evocation" });
+            schools.Add(new School { Name = "Illusion" });
 
             UnitOfWork.Commit();
             classes.Add(new Class { Name = "Bard" });
@@ -45,6 +47,7 @@ namespace DND.Domain.Concrete.EntityFramework
             UnitOfWork.Commit();
             Spell spell = new Spell
             {
+                Level = 0,
                 Name = "Animal Friendship",
                 CastingTime = "1 Action",
                 Range = "30 feet",

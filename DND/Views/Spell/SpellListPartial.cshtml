@@ -1,0 +1,70 @@
+﻿@model IEnumerable<DND.Domain.Entities.Spell>
+
+
+@foreach (var item in Model)
+{
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse@(item.Id)" aria-expanded="false" aria-controls="collapse@(item.Id)">
+                        <div class="col-xs-6">
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </div>
+                        <div class="col-xs-2">
+                            @Html.DisplayFor(modelItem => item.Level)
+                        </div>
+                        <div class="col-xs-4">
+                            @Html.DisplayFor(modelItem => item.School.Name)
+                        </div>
+                        @foreach (var spellClass in item.Classes)
+                        {
+                            <div class="col-xs-3">                                @Html.DisplayFor(modelItem => spellClass.Name)</div>
+                        }
+                        &nbsp;
+                    </a>
+                </h4>
+            </div>
+            <div id="collapse@(item.Id)" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model => model.CastingTime)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(modelItem => item.CastingTime)
+                    </div>
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model => model.Range)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(modelItem => item.Range)
+                    </div>
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model => model.Components)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(modelItem => item.Components)
+                    </div>
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model => model.Duration)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(modelItem => item.Duration)
+                    </div>
+                    <div class="col-md-3">
+                        @Html.DisplayNameFor(model => model.Source)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.DisplayFor(modelItem => item.Source)
+                    </div>
+                    <div class="col-md-12">
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+

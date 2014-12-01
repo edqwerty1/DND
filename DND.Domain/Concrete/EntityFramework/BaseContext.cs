@@ -34,6 +34,7 @@ namespace DND.Domain.Concrete.EntityFramework
         protected BaseContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {
+            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
             this.Configuration.LazyLoadingEnabled = true;
         }
 
@@ -44,6 +45,7 @@ namespace DND.Domain.Concrete.EntityFramework
         protected BaseContext(DbConnection dbConnection)
             : base(dbConnection, true)
         {
+            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
             this.Configuration.LazyLoadingEnabled = true;
         }
 

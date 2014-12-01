@@ -1,0 +1,9 @@
+﻿@model int
+    @if (Model == 0 || Model == null)
+    {
+        @Html.Raw( "Cantrip");
+    }
+    else
+    {
+        Model.ToString();
+    }

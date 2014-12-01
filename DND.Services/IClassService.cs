@@ -11,6 +11,8 @@ namespace DND.Services
     {
         Class GetClass(string className);
 
+        Class GetClass(int id);
+
         IQueryable<Class> GetAllClasses();
     }
 }

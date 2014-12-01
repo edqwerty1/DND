@@ -22,6 +22,11 @@ namespace DND.Services.Implementation
 
         }
 
+        public Class GetClass(int id)
+        {
+            return classes.First(t => t.Id == id);
+        }
+
         public IQueryable<Class> GetAllClasses()
         {
             return classes.GetAll(); ;

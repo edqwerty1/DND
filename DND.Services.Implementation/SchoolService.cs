@@ -22,6 +22,11 @@ namespace DND.Services.Implementation
 
         }
 
+        public School GetSchool(int id)
+        {
+            return schools.First(t => t.Id == id);
+        }
+
         public IQueryable<School> GetAllSchools()
         {
             return schools.GetAll(); ;

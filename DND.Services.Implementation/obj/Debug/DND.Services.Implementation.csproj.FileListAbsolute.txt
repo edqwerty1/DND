@@ -20,3 +20,6 @@ C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\bin\Debug\Entit
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.csprojResolveAssemblyReference.cache
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.dll
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\obj\Debug\DND.Services.Implementation.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\bin\Debug\DND.Services.Implementation.dll.config
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services.Implementation\bin\Debug\EntityFramework.SqlServer.xml

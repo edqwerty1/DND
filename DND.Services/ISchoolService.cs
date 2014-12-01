@@ -11,6 +11,8 @@ namespace DND.Services
     {
         School GetSchool(string schoolName);
 
+        School GetSchool(int id);
+
         IQueryable<School> GetAllSchools();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace DND.Domain.Entities
     public class Spell : BaseEntity
     {
         public string Name { get; set; }
-
+        [UIHint("SpellLevel")]
         public int Level { get; set; }
 
         public virtual ICollection<Class> Classes { get; set; }

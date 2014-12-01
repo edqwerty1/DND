@@ -26,3 +26,6 @@ C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\EntityFramework.xml
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.csprojResolveAssemblyReference.cache
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.dll
 C:\Users\EdUser\Documents\GitHub\DND\DND.Services\obj\Debug\DND.Services.pdb
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\DND.Services.dll.config
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\EdUser\Documents\GitHub\DND\DND.Services\bin\Debug\EntityFramework.SqlServer.xml

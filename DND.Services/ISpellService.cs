@@ -15,6 +15,10 @@ namespace DND.Services
 
         bool SaveSpell(Spell spell);
 
+        IQueryable<Spell> FindSpells(string level, int classId ,string spellName);
+
+        bool AddSpell(Spell spell);
+
 
     }
 }
