@@ -24,7 +24,7 @@ namespace DND.Domain.Concrete.EntityFramework
         /// </summary>
         static BaseContext()
         {
-            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<BaseContext>());
         }
 
         /// <summary>
@@ -34,7 +34,7 @@ namespace DND.Domain.Concrete.EntityFramework
         protected BaseContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {
-            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<BaseContext>());
             this.Configuration.LazyLoadingEnabled = true;
         }
 
@@ -45,7 +45,7 @@ namespace DND.Domain.Concrete.EntityFramework
         protected BaseContext(DbConnection dbConnection)
             : base(dbConnection, true)
         {
-            Database.SetInitializer(new CreateDatabaseIfNotExists<BaseContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<BaseContext>());
             this.Configuration.LazyLoadingEnabled = true;
         }
 

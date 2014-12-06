@@ -113,12 +113,6 @@ namespace DND.Services.Implementation
                     spell.Range = x.Trim();
                 }
 
-                if (myString.StartsWith("Components:", StringComparison.OrdinalIgnoreCase))
-                {
-                    x = myString.Substring(12);
-                    spell.Components = x.Trim();
-                }
-
 
                 if (myString.StartsWith("Duration:", StringComparison.OrdinalIgnoreCase))
                 {

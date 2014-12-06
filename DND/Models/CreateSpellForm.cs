@@ -21,7 +21,15 @@ namespace DND.Models
 
         public string Range { get; set; }
 
-        public string Components { get; set; }
+        public bool Ritual { get; set; }
+
+        public bool Somatic { get; set; }
+
+        public bool Verbal { get; set; }
+
+        public bool Material { get; set; }
+
+        public string MaterialDescription { get; set; }
 
         public string Duration { get; set; }
 

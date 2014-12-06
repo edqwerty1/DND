@@ -51,7 +51,11 @@ namespace DND.Domain.Concrete.EntityFramework
                 Name = "Animal Friendship",
                 CastingTime = "1 Action",
                 Range = "30 feet",
-                Components = "v, s, m, (a morsel of food)",
+                Ritual = false,
+                Verbal = true,
+                Somatic = true ,
+                Material = true,
+                MaterialDescription = "a morsel of food",
                 Duration = "24 Hours",
                 Source = "Player's Handbook - p. 212",
                 Classes = new HashSet<Class>()

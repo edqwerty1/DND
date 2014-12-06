@@ -89,7 +89,11 @@ namespace DND.Controllers
                 {
                     Name = spell.Name,
                     CastingTime = spell.CastingTime,
-                    Components = spell.Components,
+                    Ritual = spell.Ritual,
+                    Verbal = spell.Verbal,
+                    Material = spell.Material,
+                    MaterialDescription = spell.MaterialDescription,
+                    Somatic = spell.Somatic,
                     Description = spell.Description,
                     Duration = spell.Duration,
                     Level = spell.Level,
